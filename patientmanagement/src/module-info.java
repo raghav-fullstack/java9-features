@@ -1,0 +1,4 @@
+module patientManagement {
+
+    exports patientmanagement;
+}
