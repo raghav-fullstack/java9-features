@@ -12,7 +12,9 @@ public class Demo {
         List<String> list = List.of("abc", "xyz", "123");
         Set.of("abc", "xyz", "123");
         Map.of('a', "abc", 'b', "bcd", 3, "cde");
-        Map.ofEntries(entry(2, new String("2 is the key")), entry(3, "3 is the key"));
+        Map<Integer, String> map = Map.ofEntries(entry(2, new String("2 is the key")), entry(3, "3 is the key"));
+
+        System.out.println(map);
 
 
     }

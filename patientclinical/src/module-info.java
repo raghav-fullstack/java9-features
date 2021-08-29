@@ -1,4 +1,4 @@
 module patientclinical {
 
-    requires patientmanagement;
+    //requires patientmanagement;
 }
